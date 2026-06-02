@@ -36,5 +36,14 @@ class Numbers
   {
    nombreEntiers();
     OrdrePriorite();
+    int a= 7;
+    int b=4;
+    int c=(a+b)/3;
+    int d = (a+b)%3;
+    Console.WriteLine($"quotient{c}");
+    Console.WriteLine($"reste{d}");
+    int min = int.MinValue;
+    int max = int.MaxValue;
+    Console.WriteLine($"le portée des entiers {min} jusqu'à {max}");
   }
 }

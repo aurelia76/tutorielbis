@@ -45,7 +45,7 @@ class Numbers
     int min = int.MinValue;
     int max = int.MaxValue;
     //Console.WriteLine($"le portée des entiers {min} jusqu'à {max}");
-    int what = max+3;
-    Console.WriteLine ($"depassement {what}");
+    //int what = max+3;
+    //Console.WriteLine ($"depassement {what}");
   }
 }

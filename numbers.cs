@@ -1,7 +1,7 @@
 using System;
 class Numbers
 {
-  static void Main()
+  void nombreEntiers()
   {
     int a=18;
     int b=6;
@@ -13,5 +13,9 @@ class Numbers
     Console.WriteLine(e);
     int f=a/b;
     Console.WriteLine(f);
+  }
+  static void Main()
+  {
+   nombreEntiers();
   }
 }

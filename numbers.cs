@@ -11,7 +11,7 @@ class Numbers
     Console.WriteLine(d);
     int e=a*b;
     Console.WriteLine(e);
-    int f=a/b,
+    int f=a/b;
     Console.WriteLine(f);
   }
 }

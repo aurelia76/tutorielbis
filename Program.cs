@@ -2,8 +2,8 @@ using System;
 
 class Program
 {
-  static void main()
+  static void Main()
   {
-    Console.Writeline("Hello Word");
+    Console.WriteLine("Hello Word");
   }
 }

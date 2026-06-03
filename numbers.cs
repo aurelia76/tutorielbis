@@ -32,6 +32,15 @@ class Numbers
     int h = (e+f)/g;
     Console.WriteLine(h);
   }
+
+  void nombreDouble()
+  {
+    double a = 19;
+    double b= 23;
+    double c= 8;
+    double d = (a+b)/c;
+    Console.WriteLine(d);
+  }
   static void Main()
   {
    //nombreEntiers();
@@ -47,5 +56,6 @@ class Numbers
     //Console.WriteLine($"le portée des entiers {min} jusqu'à {max}");
     //int what = max+3;
     //Console.WriteLine ($"depassement {what}");
+    nombreDouble();
   }
 }

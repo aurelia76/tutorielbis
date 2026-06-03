@@ -59,6 +59,10 @@ class Numbers
     decimal d = 3.0M;
     Console.WriteLine(c/d);
   }
+  void perimetreCercle()
+  {
+    Console.WriteLine(2.5*Math.PI);
+  }
   static void Main()
   {
    //nombreEntiers();
@@ -71,5 +75,6 @@ class Numbers
     //Console.WriteLine ($"depassement {what}");
     //nombreDouble();
     nombreDecimal();
+    perimetreCercle();
   }
 }

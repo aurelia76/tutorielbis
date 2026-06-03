@@ -33,6 +33,15 @@ class Numbers
     Console.WriteLine(h);
   }
 
+  void divisionReste()
+  {
+    int a= 7;
+    int b=4;
+    int c=(a+b)/3;
+    int d = (a+b)%3;
+    Console.WriteLine($"quotient{c}");
+    Console.WriteLine($"reste{d}");
+  }
   void nombreDouble()
   {
     double a = 19;
@@ -41,21 +50,26 @@ class Numbers
     double d = (a+b)/c;
     Console.WriteLine(d);
   }
+  void nombreDecimal()
+  {
+    double a= 1.0;
+    double b = 3.0;
+    Console.WriteLine(a/b);
+    decimal c= 1.0M;
+    decimal d = 3.0M;
+    Console.WriteLine(c/d);
+  }
   static void Main()
   {
    //nombreEntiers();
     //OrdrePriorite();
-    int a= 7;
-    int b=4;
-    int c=(a+b)/3;
-    int d = (a+b)%3;
-    //Console.WriteLine($"quotient{c}");
-    //Console.WriteLine($"reste{d}");
+    //divisionReste();
     int min = int.MinValue;
     int max = int.MaxValue;
     //Console.WriteLine($"le portée des entiers {min} jusqu'à {max}");
     //int what = max+3;
     //Console.WriteLine ($"depassement {what}");
-    nombreDouble();
+    //nombreDouble();
+    nombreDecimal();
   }
 }

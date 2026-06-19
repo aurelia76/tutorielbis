@@ -10,6 +10,6 @@ class tuples
     pt = new {X: pt.X+5, Y:pt.Y};
     Console.WriteLine($"point is now at {pt}");
     var pt2= pt with {Y=10};
-    Console.WriteLine($"the point'pt2'est a {pt2}");
+    Console.WriteLine($"the point 'pt2' est a {pt2}");
   }
 }

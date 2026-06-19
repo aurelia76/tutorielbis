@@ -13,6 +13,6 @@ class tuples
     Console.WriteLine($"the point 'pt2' est a {pt2}");
     var subscript = (A:0,B:0);
     subscript=pt;
-    console.WriteLine(subscript);
+    Console.WriteLine(subscript);
   }
 }

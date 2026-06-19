@@ -11,5 +11,8 @@ class tuples
     Console.WriteLine($"point is now at {pt}");
     var pt2= (pt.X,Y:10);
     Console.WriteLine($"the point 'pt2' est a {pt2}");
+    var subscript = (A:0,B:0);
+    subscript=pt;
+    console.WriteLine(subscript);
   }
 }

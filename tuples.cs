@@ -14,5 +14,7 @@ class tuples
     var subscript = (A:0,B:0);
     subscript=pt;
     Console.WriteLine(subscript);
+    var namedData =(Name:"Morning observation", temp :17, Wind : 4);
+    var person = (FirstName:"", lastName:"");
   }
 }
